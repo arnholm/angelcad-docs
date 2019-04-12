@@ -14,7 +14,9 @@ The csg_wikipedia.as sample
 | [angelcad-samples](https://github.com/arnholm/angelcad-samples){:target="_blank"}  | AngelCAD examples repository |
 | [Downloads](https://github.com/arnholm/xcsg/releases){:target="_blank"} | Executable binaries |
 
-------
+(links above open in new tabs)
+
+
 
 **AngelCAD IDE and Viewer** - With the IDE you edit and run the scripts and launch the 3d Viewer
 
