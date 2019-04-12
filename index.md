@@ -8,17 +8,15 @@ The csg_wikipedia.as sample
 
 
 
-| AngelCAD Pages  | (links open in new tabs)  |
+| AngelCAD Pages  |   |
 | :---------------------------- | : --------- |
-| [Scripting Language](/docs/index.html){:target="_blank"}  | AngelCAD language reference  |
-| [angelcad-samples](https://github.com/arnholm/angelcad-samples){:target="_blank"}  | GitHub script example repository |
-| [Binaries Download](https://github.com/arnholm/xcsg/releases){:target="_blank"} | Windows/Linux pre-builds |
+| [Language reference](/docs/index.html){:target="_blank"}  | AngelCAD scripting language reference  |
+| [angelcad-samples](https://github.com/arnholm/angelcad-samples){:target="_blank"}  | AngelCAD examples repository |
+| [Downloads](https://github.com/arnholm/xcsg/releases){:target="_blank"} | Executable binaries |
 
+------
 
-
-*AngelCAD IDE and Viewer*
-
-With the IDE you edit and run the scripts + launch the 3d Viewer
+**AngelCAD IDE and Viewer** - With the IDE you edit and run the scripts and launch the 3d Viewer
 
 ![AngelCAD modeller](/images/angelcad_ide.png)
 
