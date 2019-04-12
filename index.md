@@ -3,7 +3,7 @@
 AngelCAD is an open source 3D solid modeller based on the Constructive Solid Geometry [CSG](https://en.wikipedia.org/wiki/Constructive_solid_geometry) modelling technique and using the [AngelScript](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html) scripting language. Builds available for Windows and Linux.
 
 
-<script src="https://embed.github.com/view/3d/arnholm/acdocs/master/stl/csg_wikipedia.stl"> </script>
+<script src="https://embed.github.com/view/3d/arnholm/acdocs/master/stl/csg_wikipedia.stl?height=300&width=500"> </script>
 
 
 | AngelCAD Pages (links open in new tabs) |
@@ -17,5 +17,5 @@ AngelCAD is an open source 3D solid modeller based on the Constructive Solid Geo
 
 With the IDE you edit and run the scripts + launch the 3d Viewer
 
-![AngelCAD modeller](/docs/angelcad_ide_70pst.png)
+![AngelCAD modeller](/images/angelcad_ide.png)
 
