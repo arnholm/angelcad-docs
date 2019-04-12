@@ -10,15 +10,21 @@ The csg_wikipedia.as sample
 
 | AngelCAD resources |   |
 | :---------------------------- | : --------- |
-| [Language reference](/docs/index.html){:target="_blank"}  | AngelCAD scripting language reference  |
+| [language reference](/docs/index.html){:target="_blank"}  | AngelCAD scripting language reference  |
 | [angelcad-samples](https://github.com/arnholm/angelcad-samples){:target="_blank"}  | AngelCAD examples repository - GitHub |
-| [Downloads](https://github.com/arnholm/xcsg/releases){:target="_blank"} | Executable binaries - Windows and Linux |
+| [downloads](https://github.com/arnholm/xcsg/releases){:target="_blank"} | Executable binaries - Windows and Linux |
 
 (links above open in new tabs) 
 
 
 
-**AngelCAD IDE and Viewer** - With the IDE you edit/run the scripts and launch the 3d Viewer
+**AngelCAD IDE and Viewer** - With the desktop IDE you edit/run the scripts and launch the 3d Viewer
 
 ![AngelCAD modeller](/images/angelcad_ide.png)
 
+
+**Technology** - AngelCAD uses [xcsg](https://github.com/arnholm/xcsg){:target="_blank"} for 3d computations. xcsg is based around the [carve library](https://github.com/arnholm/carve){:target="_blank"} created by Tobias Sargeant. xcsg also uses qhull by C.B. Barber and libtess2 by Mikko Mononen.
+
+The AngelCAD language interpreter - as_csg - is based on the ecellend [AngelScript language](http://www.angelcode.com/angelscript/) by Andreas Jönsson. as_csg extends the language with 3d modelling types and operations.
+
+The AngelCAD IDE and Viewer applications uses the [wxWidgets cross-platform GUI library](https://wxwidgets.org/) to create native GUI applications for Windows and Linux.
