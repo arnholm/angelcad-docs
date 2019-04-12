@@ -8,13 +8,12 @@ The csg_wikipedia.as sample
 
 
 
-| AngelCAD Pages  |   |
+| AngelCAD Pages *) |   |
 | :---------------------------- | : --------- |
 | [Language reference](/docs/index.html){:target="_blank"}  | AngelCAD scripting language reference  |
 | [angelcad-samples](https://github.com/arnholm/angelcad-samples){:target="_blank"}  | AngelCAD examples repository |
 | [Downloads](https://github.com/arnholm/xcsg/releases){:target="_blank"} | Executable binaries |
-
-(links above open in new tabs)
+*) links open in new tabs
 
 
 
