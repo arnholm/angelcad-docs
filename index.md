@@ -24,7 +24,7 @@ The csg_wikipedia.as sample
 ![AngelCAD modeller](/images/angelcad_ide.png)
 
 
-**Technology** - AngelCAD uses [xcsg](https://github.com/arnholm/xcsg){:target="_blank"} for 3d computations. xcsg is based on the [carve library](https://github.com/arnholm/carve){:target="_blank"} created by Tobias Sargeant. xcsg also uses qhull by C.B. Barber and libtess2 by Mikko Mononen.
+**Technology** - AngelCAD uses [xcsg](https://github.com/arnholm/xcsg){:target="_blank"} for 3d computations. xcsg is based on the [carve library](https://github.com/arnholm/carve){:target="_blank"} created by Tobias Sargeant. xcsg also uses [Clipper](http://angusj.com/delphi/clipper.php) by Angus Johnson, qhull by C.B. Barber and libtess2 by Mikko Mononen.
 
 The AngelCAD language interpreter - as_csg - is based on the [AngelScript language](http://www.angelcode.com/angelscript/){:target="_blank"} by Andreas Jönsson, as_csg extends the language with 3d modelling types and operations for constructive solid geometry.
 
