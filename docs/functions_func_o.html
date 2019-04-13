@@ -19,9 +19,8 @@
   <td id="projectlogo"><img alt="Logo" src="angel_48x48.bmp"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">AngelCAD
-   &#160;<span id="projectnumber">v1.1-00</span>
+   &#160;<span id="projectnumber">v1.2-00</span>
    </div>
-   <div id="projectbrief">AngelScript based 3d modeller</div>
   </td>
  </tr>
  </tbody>
@@ -58,6 +57,7 @@
       <li><a href="functions_func_d.html#index_d"><span>d</span></a></li>
       <li><a href="functions_func_e.html#index_e"><span>e</span></a></li>
       <li><a href="functions_func_f.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_func_g.html#index_g"><span>g</span></a></li>
       <li><a href="functions_func_h.html#index_h"><span>h</span></a></li>
       <li><a href="functions_func_i.html#index_i"><span>i</span></a></li>
       <li><a href="functions_func_l.html#index_l"><span>l</span></a></li>
@@ -92,17 +92,43 @@
 : <a class="el" href="classshape2d.html#a661073c5f05cf4a99d6195774d14febe">shape2d</a>
 , <a class="el" href="classsolid.html#a7c5ae909daf56a6c80f4adf8f902a126">solid</a>
 </li>
+<li>opAssign()
+: <a class="el" href="classarray.html#a1b6fd9008d23acac688a264c637b004e">array</a>
+, <a class="el" href="classdictionary.html#a817eb601a41a3e7575a2f698f21b323c">dictionary</a>
+, <a class="el" href="classmap.html#a2f0a929d52a1e3ad8a7e304b24f46dbf">map</a>
+, <a class="el" href="classmap__iterator.html#a63d0fc0c6d33e397d0cacc8b1d45d11e">map_iterator</a>
+, <a class="el" href="classstring.html#ab84ea72021b611d259651e56dd52e566">string</a>
+, <a class="el" href="classunordered__map.html#aa1ca4bc9b6b5e8ffcbc9135cad130419">unordered_map</a>
+, <a class="el" href="classunordered__map__iterator.html#a32d300f0ecdeebbf920b47e267ba7081">unordered_map_iterator</a>
+</li>
+<li>opCmp()
+: <a class="el" href="classstring.html#aea1547182aede6b6536180ac19045d00">string</a>
+</li>
+<li>opEquals()
+: <a class="el" href="classarray.html#ae4a2fbee42d3f45f41bf0bff66daf8be">array</a>
+, <a class="el" href="classmap__iterator.html#a5968e81fa08c4ac1296b3f575f8ab49a">map_iterator</a>
+, <a class="el" href="classstring.html#a30762e1d1166d89cbec5a8d5b59d2390">string</a>
+, <a class="el" href="classunordered__map__iterator.html#acaedd479b5d47a1009731666e4cba20f">unordered_map_iterator</a>
+</li>
+<li>opImplConv()
+: <a class="el" href="class_o_stream.html#a2cb752874cefffe8f147c6b38a9fc8c6">OStream</a>
+</li>
+<li>opIndex()
+: <a class="el" href="classarray.html#a8c88f6ed595eb8b07552822605e831d6">array</a>
+, <a class="el" href="classdictionary.html#a851a48fd4b118469a1ea61fadfd2fad5">dictionary</a>
+, <a class="el" href="classstring.html#a7ad578ada792a05423f0d873a8a15e6c">string</a>
+</li>
 <li>opMul()
 : <a class="el" href="classhmatrix.html#a36f8168c04d2338d89fcd5e89be03e14">hmatrix</a>
-, <a class="el" href="classmirror.html#af73ca8520aa6dc35afd6c14b4adac887">mirror</a>
+, <a class="el" href="classmirror.html#a1995bbf6c023b12f679c72f7637286c5">mirror</a>
 , <a class="el" href="classpos2d.html#a46954572ae21d447ee8d0046aa7b637b">pos2d</a>
 , <a class="el" href="classpos3d.html#a69470977c365e6cee493bff6879094ff">pos3d</a>
 , <a class="el" href="classrotate__x.html#a72f61b2fde297a7439f21f9acb42713b">rotate_x</a>
 , <a class="el" href="classrotate__y.html#ae452ef362dd27b52aac9a868ceb20d3a">rotate_y</a>
-, <a class="el" href="classrotate__z.html#a7432c74ba3def93d06b2560bb8cdffb8">rotate_z</a>
-, <a class="el" href="classscale.html#a90463ab1564f452f8319a1db78a52c6e">scale</a>
-, <a class="el" href="classtmatrix.html#a1aa2861b5430f54b737a765e00e81360">tmatrix</a>
-, <a class="el" href="classtranslate.html#a483c293e55dec6139dfee99797e31073">translate</a>
+, <a class="el" href="classrotate__z.html#ae6dd6063a7f975d59ee5f37e7a8a0331">rotate_z</a>
+, <a class="el" href="classscale.html#a50c0e9c221d11762243bbb647c78d353">scale</a>
+, <a class="el" href="classtmatrix.html#a238489bdf9ebdb66d6dc2d1fad19391f">tmatrix</a>
+, <a class="el" href="classtranslate.html#a4f22510ab9772b6ce6e718990043988b">translate</a>
 , <a class="el" href="classvec2d.html#abe26530daa9e544df3ca004945f96be5">vec2d</a>
 , <a class="el" href="classvec3d.html#afa05d40f32e0ef1d70cf528719995bbf">vec3d</a>
 </li>
@@ -111,6 +137,17 @@
 , <a class="el" href="classpos3d.html#acfd5b4f8332934d12be19fc1ce79fb7c">pos3d</a>
 , <a class="el" href="classvec2d.html#a7df44e3a85ea956a529231b9d3b8f979">vec2d</a>
 , <a class="el" href="classvec3d.html#a7ca48b5820ccf3e988d69166935c9a57">vec3d</a>
+</li>
+<li>opPostInc()
+: <a class="el" href="classmap__iterator.html#adb0fed9ef292be4c48df18596856b2a7">map_iterator</a>
+, <a class="el" href="classunordered__map__iterator.html#afa14fd514e83838bde0a7c254363400b">unordered_map_iterator</a>
+</li>
+<li>opPreInc()
+: <a class="el" href="classmap__iterator.html#abf45430edda805dad94c070df3f4a241">map_iterator</a>
+, <a class="el" href="classunordered__map__iterator.html#a0624cb4030d7ee174140ebe6c10c1941">unordered_map_iterator</a>
+</li>
+<li>opShl()
+: <a class="el" href="class_o_stream.html#ac7cf3110d5418f5186fa758178011e8c">OStream</a>
 </li>
 <li>opSub()
 : <a class="el" href="classshape2d.html#a91545cb1ed19b224f799e11c8c080a9a">shape2d</a>
@@ -130,7 +167,7 @@
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 11 2018 17:38:15 for AngelCAD by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Apr 13 2019 12:20:10 for AngelCAD by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

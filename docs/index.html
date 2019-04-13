@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.8"/>
-<title>AngelCAD: AngelCAD</title>
+<title>AngelCAD: AngelCAD - script based 3D solid modeller</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -19,9 +19,8 @@
   <td id="projectlogo"><img alt="Logo" src="angel_48x48.bmp"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">AngelCAD
-   &#160;<span id="projectnumber">v1.1-00</span>
+   &#160;<span id="projectnumber">v1.2-00</span>
    </div>
-   <div id="projectbrief">AngelScript based 3d modeller</div>
   </td>
  </tr>
  </tbody>
@@ -39,51 +38,57 @@
 </div><!-- top -->
 <div class="header">
   <div class="headertitle">
-<div class="title">AngelCAD </div>  </div>
+<div class="title">AngelCAD - script based 3D solid modeller </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>AngelCAD is an application for creating 3D solid models, employing the <a href="https://en.wikipedia.org/wiki/Constructive_solid_geometry">Constructive Solid Geometry (CSG)</a> technique using the <a href="http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html">AngelScript scripting language</a>. The result is STL files or other formats suitable for 3D printing. AngelCAD can also produce 2D models in DXF format.</p>
-<p>The software is developed by Carsten Arnholm and marketed by <a href="http://abmesh.com/">abmesh.com</a>.</p>
+<div class="textblock"><p>AngelCAD is an open source 3D solid modeller based on the <a href="https://en.wikipedia.org/wiki/Constructive_solid_geometry">Constructive Solid Geometry (CSG)</a> modelling technique, expressed in the <a href="http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html">AngelScript language</a>. The software is used for creating 3D models in STL or other file formats.</p>
 <div class="image">
-<img src="angelcad_ide_70pst.png" alt="angelcad_ide_70pst.png"/>
+<img src="angelcad_ide.png" alt="angelcad_ide.png"/>
 </div>
 <h1><a class="anchor" id="language_sec"></a>
-The AngelCAD language</h1>
-<p>AngelCAD offers the <a href="http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html">AngelScript</a> language as a means of expressing 3D designs. AngelScript is a powerful, but easy to learn language with syntax similar to many other languages. It allows you to create variables to describe parameters or to hold parts of the design. Standard constructs such as for-loops and if-statements are supported, plus much more. See the <a href="http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html">AngelScript language description</a> for more information. The use of a scripting language offers many advantages, including easy sharing between people as well as a natural ability to describe parametric designs.</p>
-<p>The AngelCAD language adds additional solid-modelling features to the general purpose AngelScript language. This includes modelling primitives such as 'cube', 'sphere' and 'polyhedron', and operators such as '<a class="el" href="classunion3d.html" title="3d union boolean operation ">union3d</a>' and 'hull'. For a full overview, see the 'Classes' page of this manual.</p>
-<p>AngelCAD sample scripts are available from <a href="https://github.com/arnholm/angelcad-samples/">https://github.com/arnholm/angelcad-samples/</a>, demonstrating practical use of the language.</p>
-<h1><a class="anchor" id="installing_sec"></a>
-Installing</h1>
-<p>For a first impression without installing locally, try <a href="http://abmesh.com/">AngelCAD-online</a>. To get the full benefits of AngelCAD-desktop running on your computer, please download and install the most recent version available from <a href="http://abmesh.com/">abmesh.com</a>. AngelCAD-desktop is available for Windows and Ubuntu Linux.</p>
-<p>To install the software, extract the downloaded ZIP-file and run the setup.exe (Windows) or setup.sh shell script (Linux).</p>
+AngelCAD language extension to AngelScript</h1>
+<p>AngelCAD uses the <a href="http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html">AngelScript</a> language to express 3D model designs. It is a powerful language based on the well known syntax of languages such as C++ or Java. It is a strongly typed language allowing the user to declare variables for parametric modelling or to hold parts of the design. Standard constructs such as for-loops and if-statements are available, plus much more. See the <a href="http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html">AngelScript language description</a> for details.</p>
+<p>The AngelCAD language extension adds 3D solid modelling features to the general purpose AngelScript language. This includes modelling primitives such as 'cube', 'sphere', 'polyhedron' and more, plus operators such as '<a class="el" href="classunion3d.html" title="3d union boolean operation ">union3d</a>' and '<a class="el" href="classhull3d.html" title="3d hull operation, enclosing the input solids ">hull3d</a>'. For a full overview of the features, see the 'Classes' page of this manual. See also the AngelCAD sample scripts available from the <a href="https://github.com/arnholm/angelcad-samples/">angelcad-samples</a> repository.</p>
+<h1><a class="anchor" id="License"></a>
+License</h1>
+<p>AngelCAD is Copyright (c) 2015 - 2020 Carsten Arnholm. The software is distributed under the <a href="https://www.gnu.org/licenses/gpl.html">GNU General Public License version 3.</a></p>
 <h1><a class="anchor" id="gettingstarted_sec"></a>
 Getting Started</h1>
-<p>The code below is "basic_cube_sphere.as", a simple AngelCAD source file, also shown in the top image. </p><div class="fragment"><div class="line"><a class="code" href="classshape.html">shape</a>@ main_shape()</div>
+<p>To install the software, download the pre-built binaries from the Github releases section. Extract the downloaded ZIP-file and run the setup.exe (Windows) or setup.sh shell script (Linux). Then try some of the sample scripts from the <a href="https://github.com/arnholm/angelcad-samples">angelcad-samples</a> GitHub repository. One of the examples is "csg_wikipadia.as",shown below and in the image at the top of the page. </p><div class="fragment"><div class="line"><a class="code" href="classshape.html">shape</a>@ main_shape()</div>
 <div class="line">{</div>
-<div class="line">   <span class="comment">// create cube &amp; sphere in default positions</span></div>
-<div class="line">   <span class="keywordtype">double</span> d = 100;</div>
-<div class="line">   <a class="code" href="classsolid.html">solid</a>@ mycub = <a class="code" href="classcube.html">cube</a>(size:d);</div>
-<div class="line">   <a class="code" href="classsolid.html">solid</a>@ mysph = <a class="code" href="classsphere.html">sphere</a>(r:d*0.8);</div>
+<div class="line">   <span class="comment">// intersection of cube and sphere</span></div>
+<div class="line">   <a class="code" href="classcube.html">cube</a>@     cu = <a class="code" href="classcube.html">cube</a>(size:45,center:<span class="keyword">true</span>);</div>
+<div class="line">   <a class="code" href="classsphere.html">sphere</a>@   sp = <a class="code" href="classsphere.html">sphere</a>(r:30);</div>
+<div class="line">   <a class="code" href="classsolid.html">solid</a>@  cusp = cu &amp; sp;                   <span class="comment">// &#39;&amp;&#39; : intersection</span></div>
 <div class="line"></div>
-<div class="line">   <span class="comment">// move the sphere in z-direction and subtract from cube</span></div>
-<div class="line">   <span class="keywordflow">return</span> mycub - <a class="code" href="classtranslate.html">translate</a>(0,0,d)*mysph;</div>
+<div class="line">   <span class="comment">// union of 3 cylinders</span></div>
+<div class="line">   <a class="code" href="classcylinder.html">cylinder</a>@ cy = <a class="code" href="classcylinder.html">cylinder</a>(r:17,h:50,center:<span class="keyword">true</span>);</div>
+<div class="line">   <a class="code" href="classsolid.html">solid</a>@   cy2 = cy  + <a class="code" href="classrotate__x.html">rotate_x</a>(deg:90)*cy;</div>
+<div class="line">   <a class="code" href="classsolid.html">solid</a>@   cy3 = cy2 + <a class="code" href="classrotate__y.html">rotate_y</a>(deg:90)*cy; <span class="comment">// &#39;+&#39; : union</span></div>
+<div class="line"></div>
+<div class="line">   <span class="comment">// difference of the 2 above</span></div>
+<div class="line">   <span class="keywordflow">return</span> cusp - cy3;                        <span class="comment">// &#39;-&#39; : difference</span></div>
 <div class="line">}</div>
 <div class="line"></div>
 <div class="line"><span class="keywordtype">void</span> <a class="code" href="doc_8as.html#acdef7a1fd863a6d3770c1268cb06add3">main</a>()</div>
 <div class="line">{</div>
-<div class="line">   <a class="code" href="classshape.html">shape</a>@ obj = main_shape();</div>
-<div class="line">   obj.<a class="code" href="classshape.html#aabc7a0a7c844c00e5dff11876e395160">write_xcsg</a>(GetInputFullPath(),secant_tolerance:0.02);</div>
+<div class="line">    <a class="code" href="classshape.html">shape</a>@ obj = main_shape();</div>
+<div class="line">    obj.<a class="code" href="classshape.html#aabc7a0a7c844c00e5dff11876e395160">write_xcsg</a>(GetInputFullPath(),secant_tolerance:0.01);</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>Some rules</p><ul>
 <li>You <em>must</em> have a "void main()" function.</li>
 <li>It is recommended to use a "shape@ main_shape()" function that returns the final object created.</li>
+<li>The secant tolerance controls the density of the generated mesh</li>
 <li>You can use as many additional functions as you need.</li>
-<li>Note the use of handles such as shape@, cylinder@ etc. You must use the "@" character with all AngelCAD CSG objects. </li>
+<li>Note the use of handles such as shape@, cylinder@ etc. The use of the "@" character with most AngelCAD objects signifies a reference variable, you can think of it as a kind of smart pointer to an object as it manages itself automatically and does not require explicit deletion.</li>
 </ul>
+<h1><a class="anchor" id="technology_sec"></a>
+Technology</h1>
+<p>AngelCAD uses <a href="https://github.com/arnholm/xcsg">xcsg</a> for 3d computations. xcsg is based on the <a href="https://github.com/arnholm/carve">carve library</a> created by Tobias Sargeant. xcsg also uses qhull by C.B. Barber and libtess2 by Mikko Mononen. The AngelCAD language interpreter - as_csg - is based on the AngelScript language by Andreas Jönsson, as_csg extends the language with 3d modelling types and operations for constructive solid geometry. The AngelCAD IDE and Viewer applications use the <a href="https://wxwidgets.org/">wxWidgets</a> cross-platform GUI library to create native GUI for Windows and Linux. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 11 2018 17:38:15 for AngelCAD by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Apr 13 2019 12:20:10 for AngelCAD by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>
