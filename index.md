@@ -13,7 +13,7 @@ The csg_wikipedia.as sample
 | [AngelScript language](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html){:target="_blank"}  | AngelScript language reference  |
 | [AngelCAD language extension](/docs/index.html){:target="_blank"}  | AngelCAD language extension for 3d modelling  |
 | [angelcad-samples](https://github.com/arnholm/angelcad-samples){:target="_blank"}  | AngelCAD examples repository - GitHub |
-| [downloads](https://github.com/arnholm/xcsg/releases){:target="_blank"} | Prebuilt binaries - Windows and Linux |
+| [downloads](https://github.com/arnholm/angelcad/releases){:target="_blank"} | Prebuilt binaries - Windows and Linux |
 
 (links above open in new tabs) 
 
