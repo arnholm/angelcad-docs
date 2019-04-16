@@ -11,8 +11,8 @@ The csg_wikipedia.as sample
 | AngelCAD resources |   |
 | :---------------------------- | : --------- |
 | [AngelScript language](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html){:target="_blank"}  | AngelScript language reference  |
-| [AngelCAD language extension](/docs/annotated.html){:target="_blank"}  | AngelCAD language extension for 3d modelling  |
-| [angelcad-samples](https://github.com/arnholm/angelcad-samples){:target="_blank"}  | AngelCAD examples repository - GitHub |
+| [AngelCAD language extension](/docs/annotated.html){:target="_blank"}  | Language extension for 3d modelling  |
+| [angelcad-samples](https://github.com/arnholm/angelcad-samples){:target="_blank"}  | Examples repository - GitHub |
 | [downloads](https://github.com/arnholm/angelcad/releases){:target="_blank"} | Prebuilt binaries - Windows and Linux |
 
 (links above open in new tabs) 
