@@ -13,7 +13,7 @@ The csg_wikipedia.as sample
 | [AngelScript language](http://www.angelcode.com/angelscript/sdk/docs/manual/doc_script.html){:target="_blank"}  | AngelScript language reference  |
 | [AngelCAD language extension](/docs/annotated.html){:target="_blank"}  | Language extension for 3d modelling  |
 | [angelcad-samples](https://github.com/arnholm/angelcad-samples){:target="_blank"}  | Examples repository - GitHub |
-| [Video](https://youtu.be/SH4MFBrXVxQ){:target="_blank"}  | script based 3D solid modeller |
+| [Video](https://youtu.be/h-qDzG9bwnQ){:target="_blank"}  | script based 3D solid modeller |
 | [Downloads](https://github.com/arnholm/angelcad/releases){:target="_blank"} | Prebuilt binaries - Windows and Linux |
 
 
