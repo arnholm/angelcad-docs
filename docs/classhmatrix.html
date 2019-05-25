@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="angel_48x48.bmp"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">AngelCAD
-   &#160;<span id="projectnumber">1.3-00</span>
+   &#160;<span id="projectnumber">1.3-01</span>
    </div>
   </td>
  </tr>
@@ -85,7 +85,7 @@ Inheritance diagram for hmatrix:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a1bcfe172d1ab83766836162c1e9817ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhmatrix.html#a1bcfe172d1ab83766836162c1e9817ca">hmatrix</a> (const <a class="el" href="classvec3d.html">vec3d</a>@ xvec, const <a class="el" href="classvec3d.html">vec3d</a>@ yvec, const <a class="el" href="classpos3d.html">pos3d</a>@ pos=<a class="el" href="classpos3d.html">pos3d</a>(0, 0, 0))</td></tr>
-<tr class="memdesc:a1bcfe172d1ab83766836162c1e9817ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create 4x4 homogenous matrix from x and y direction vectors and an optional origin positio.  <a href="#a1bcfe172d1ab83766836162c1e9817ca">More...</a><br /></td></tr>
+<tr class="memdesc:a1bcfe172d1ab83766836162c1e9817ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create 4x4 homogenous matrix from x and y direction vectors and an optional origin position, z direction is computed.  <a href="#a1bcfe172d1ab83766836162c1e9817ca">More...</a><br /></td></tr>
 <tr class="separator:a1bcfe172d1ab83766836162c1e9817ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7425a5e0149c5ead058465cb4e734403"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhmatrix.html#a7425a5e0149c5ead058465cb4e734403">hmatrix</a> (const <a class="el" href="classvec3d.html">vec3d</a>@ xvec, const <a class="el" href="classvec3d.html">vec3d</a>@ yvec, const <a class="el" href="classvec3d.html">vec3d</a>@ zvec, const <a class="el" href="classpos3d.html">pos3d</a>@ pos=<a class="el" href="classpos3d.html">pos3d</a>(0, 0, 0))</td></tr>
 <tr class="memdesc:a7425a5e0149c5ead058465cb4e734403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create 4x4 homogenous matrix from 3 direction vectors and an optional origin position.  <a href="#a7425a5e0149c5ead058465cb4e734403">More...</a><br /></td></tr>
@@ -158,14 +158,14 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Create 4x4 homogenous matrix from x and y direction vectors and an optional origin positio. </p>
+<p>Create 4x4 homogenous matrix from x and y direction vectors and an optional origin position, z direction is computed. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xvec</td><td><a class="el" href="classvec3d.html" title="3d direction vector ">vec3d</a>@ <br />
+    <tr><td class="paramname">xvec</td><td><a class="el" href="classvec3d.html" title="3d direction vector ">vec3d</a>@, 1st matrix column, local x-direction vector <br />
  </td></tr>
-    <tr><td class="paramname">yvec</td><td><a class="el" href="classvec3d.html" title="3d direction vector ">vec3d</a>@ <br />
+    <tr><td class="paramname">yvec</td><td><a class="el" href="classvec3d.html" title="3d direction vector ">vec3d</a>@, 1nd matrix column, local y-direction vector <br />
  </td></tr>
-    <tr><td class="paramname">pos</td><td><a class="el" href="classpos3d.html" title="3d position coordinates ">pos3d</a>@ </td></tr>
+    <tr><td class="paramname">pos</td><td><a class="el" href="classpos3d.html" title="3d position coordinates ">pos3d</a>@, 4th matrix column, local origin postion </td></tr>
   </table>
   </dd>
 </dl>
@@ -232,7 +232,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 18 2019 12:55:38 for AngelCAD by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 25 2019 21:46:09 for AngelCAD by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

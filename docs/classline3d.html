@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="angel_48x48.bmp"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">AngelCAD
-   &#160;<span id="projectnumber">1.3-00</span>
+   &#160;<span id="projectnumber">1.3-01</span>
    </div>
   </td>
  </tr>
@@ -82,7 +82,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ace9eaf366adfce28f0e7740c8c306df0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute length of line segment.  <a href="#ace9eaf366adfce28f0e7740c8c306df0">More...</a><br /></td></tr>
 <tr class="separator:ace9eaf366adfce28f0e7740c8c306df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1f3e8b8d67cc0ee2a4665bf499f76b3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classline3d.html#ae1f3e8b8d67cc0ee2a4665bf499f76b3">project</a> (<a class="el" href="classpos3d.html">pos3d</a>@ point) const</td></tr>
-<tr class="memdesc:ae1f3e8b8d67cc0ee2a4665bf499f76b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Project point onto line segment and return line parameter of projetion point.  <a href="#ae1f3e8b8d67cc0ee2a4665bf499f76b3">More...</a><br /></td></tr>
+<tr class="memdesc:ae1f3e8b8d67cc0ee2a4665bf499f76b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Project point onto line and return line parameter of projetion point.  <a href="#ae1f3e8b8d67cc0ee2a4665bf499f76b3">More...</a><br /></td></tr>
 <tr class="separator:ae1f3e8b8d67cc0ee2a4665bf499f76b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab341861baef818819df9ea6ad48ed02c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classpos3d.html">pos3d</a>@&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classline3d.html#ab341861baef818819df9ea6ad48ed02c">end1</a> () const</td></tr>
 <tr class="memdesc:ab341861baef818819df9ea6ad48ed02c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return 1st end point on line segment.  <a href="#ab341861baef818819df9ea6ad48ed02c">More...</a><br /></td></tr>
@@ -126,9 +126,9 @@ Public Member Functions</h2></td></tr>
 <p>Construct line segment from p1 to p2. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">p1</td><td><a class="el" href="classpos3d.html" title="3d position coordinates ">pos3d</a>@ <br />
+    <tr><td class="paramname">p1</td><td><a class="el" href="classpos3d.html" title="3d position coordinates ">pos3d</a>@, start point on line segment, corresponding to parameter=0.0 <br />
  </td></tr>
-    <tr><td class="paramname">p2</td><td><a class="el" href="classpos3d.html" title="3d position coordinates ">pos3d</a>@ </td></tr>
+    <tr><td class="paramname">p2</td><td><a class="el" href="classpos3d.html" title="3d position coordinates ">pos3d</a>@, end point on line segment, corresponding to parameter=1.0 </td></tr>
   </table>
   </dd>
 </dl>
@@ -195,7 +195,7 @@ Public Member Functions</h2></td></tr>
 <p>Compute point on (infinite) line given line segment parameter (0=end1, 1=end2) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">par</td><td>double <br />
+    <tr><td class="paramname">par</td><td>double, Line parameter value <br />
  </td></tr>
   </table>
   </dd>
@@ -240,10 +240,10 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Project point onto line segment and return line parameter of projetion point. </p>
+<p>Project point onto line and return line parameter of projetion point. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">point</td><td><a class="el" href="classpos3d.html" title="3d position coordinates ">pos3d</a>@ <br />
+    <tr><td class="paramname">point</td><td><a class="el" href="classpos3d.html" title="3d position coordinates ">pos3d</a>@, Point to be projected onto (infinite) line <br />
  </td></tr>
   </table>
   </dd>
@@ -258,7 +258,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 18 2019 12:55:38 for AngelCAD by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 25 2019 21:46:09 for AngelCAD by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
