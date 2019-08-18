@@ -9,5 +9,6 @@ var searchData=
   ['pos2d',['pos2d',['../classpos2d.html',1,'pos2d'],['../classpos2d.html#adc7f8f350972e8957d18097d34bb8290',1,'pos2d::pos2d(const pos2d@ other)'],['../classpos2d.html#a4bfc53e7d76d41e5462b2d0b2225e35b',1,'pos2d::pos2d(double x, double y)']]],
   ['pos3d',['pos3d',['../classpos3d.html',1,'pos3d'],['../classpos3d.html#a553960414e90ba7c02f015ed379c725a',1,'pos3d::pos3d(const pos3d@ other)'],['../classpos3d.html#a17c4fe0a167af81d4acdc2499bf63c2e',1,'pos3d::pos3d(double x, double y, double z)']]],
   ['project',['project',['../classline2d.html#ac94d286e16f11009449f0a68bb35dcfa',1,'line2d::project()'],['../classline3d.html#ae1f3e8b8d67cc0ee2a4665bf499f76b3',1,'line3d::project()']]],
+  ['projection2d',['projection2d',['../classprojection2d.html',1,'projection2d'],['../classprojection2d.html#a80957c890e939669725164741d0d359b',1,'projection2d::projection2d()']]],
   ['push_5fback',['push_back',['../classarray.html#a2d5e7a47bba73c6719a2c1c8067cc6db',1,'array']]]
 ];

@@ -10,6 +10,7 @@ var searchData=
   ['rectangle',['rectangle',['../classrectangle.html#a8d471a621e328970fbeb87c6a6f2c786',1,'rectangle']]],
   ['removeat',['removeAt',['../classarray.html#abb43253bd0183ec79b4ea299e842919d',1,'array']]],
   ['removelast',['removeLast',['../classarray.html#ab13e237aaa0a8cf8390aa2900e600a16',1,'array']]],
+  ['removerange',['removeRange',['../classarray.html#ae2be6c8a3aeacc96b30767b62bf027bd',1,'array']]],
   ['reserve',['reserve',['../classarray.html#ae6f736a0914e51191bb32eb5ca8bdde3',1,'array']]],
   ['resize',['resize',['../classarray.html#a940bfbdd4630ff2177ef83da4e07dbf4',1,'array::resize()'],['../classstring.html#a45d0683a5b6948cf6873b298deceedff',1,'string::resize()']]],
   ['reverse',['reverse',['../classarray.html#a01ebe99068bc9d283c434828ab2b0db1',1,'array']]],

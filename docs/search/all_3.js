@@ -5,7 +5,6 @@ var searchData=
   ['difference2d',['difference2d',['../classdifference2d.html',1,'difference2d'],['../classdifference2d.html#a2a1f87bd219d8725aaa7cc2b0c2796d1',1,'difference2d::difference2d()']]],
   ['difference3d',['difference3d',['../classdifference3d.html',1,'difference3d'],['../classdifference3d.html#aa03ad54b8dc396e2cdef1e2b6426f104',1,'difference3d::difference3d()']]],
   ['dist',['dist',['../classpos2d.html#a43a01f089b08e38f66fa1e029f9b9e79',1,'pos2d::dist()'],['../classpos3d.html#a32783575454e7c74e09f10adcd98cd04',1,'pos3d::dist()']]],
-  ['doc_2eas',['doc.as',['../doc_8as.html',1,'']]],
   ['dot',['dot',['../classvec2d.html#a2463cc58b72b15b54e54803c9acfb7a9',1,'vec2d::dot()'],['../classvec3d.html#a47e0c0a344298ab70c0ee5d0ff27fd7d',1,'vec3d::dot()']]],
   ['dump',['dump',['../classtmatrix.html#a281fecdc8c2743a5fc43f23869ba33aa',1,'tmatrix']]],
   ['dx',['dx',['../classboundingbox.html#ae6c5d46f5478022e167cec5cc49e1f64',1,'boundingbox::dx()'],['../classcuboid.html#a03f025858ac8701714debdd53ea25fa8',1,'cuboid::dx()'],['../classmirror.html#a85efb9397880ef28d7d2cafa39e38d0e',1,'mirror::dx()'],['../classrectangle.html#a1ed948eeb815dc00970ed79a3a7fba37',1,'rectangle::dx()'],['../classtranslate.html#a96e718fa775f09168e3855f893653b90',1,'translate::dx()']]],
