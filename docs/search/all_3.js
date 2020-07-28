@@ -4,6 +4,7 @@ var searchData=
   ['diagonal',['diagonal',['../classboundingbox.html#a0ba180530cb66bd27de7d13bf087420c',1,'boundingbox']]],
   ['difference2d',['difference2d',['../classdifference2d.html',1,'difference2d'],['../classdifference2d.html#a2a1f87bd219d8725aaa7cc2b0c2796d1',1,'difference2d::difference2d()']]],
   ['difference3d',['difference3d',['../classdifference3d.html',1,'difference3d'],['../classdifference3d.html#aa03ad54b8dc396e2cdef1e2b6426f104',1,'difference3d::difference3d()']]],
+  ['dir',['dir',['../classspline2d.html#abd139e404ab6c4123b735376b4980c6b',1,'spline2d::dir()'],['../classspline3d.html#a6402b95cf65149e78b06254f4c5e28a4',1,'spline3d::dir()']]],
   ['dist',['dist',['../classpos2d.html#a43a01f089b08e38f66fa1e029f9b9e79',1,'pos2d::dist()'],['../classpos3d.html#a32783575454e7c74e09f10adcd98cd04',1,'pos3d::dist()']]],
   ['dot',['dot',['../classvec2d.html#a2463cc58b72b15b54e54803c9acfb7a9',1,'vec2d::dot()'],['../classvec3d.html#a47e0c0a344298ab70c0ee5d0ff27fd7d',1,'vec3d::dot()']]],
   ['dump',['dump',['../classtmatrix.html#a281fecdc8c2743a5fc43f23869ba33aa',1,'tmatrix']]],

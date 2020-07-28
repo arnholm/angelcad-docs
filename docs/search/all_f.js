@@ -8,7 +8,7 @@ var searchData=
   ['shape',['shape',['../classshape.html',1,'']]],
   ['shape2d',['shape2d',['../classshape2d.html',1,'']]],
   ['signed_5farea',['signed_area',['../classpolygon.html#ae345637e4caadcaafe11f0f82c64333b',1,'polygon']]],
-  ['size',['size',['../classarray.html#a76c6e1607a91a26ffe8399d07fb9f0e3',1,'array::size()'],['../classcube.html#aa974aa9cb8b8dee3d4fb6f043c9b09bf',1,'cube::size()'],['../classmap.html#aaf71b2c9ca0e9d11b6285e74886b3cbb',1,'map::size()'],['../classpolygon.html#a511848d9532b5fd440b2b907747603b3',1,'polygon::size()'],['../classsquare.html#a9d392b3b6b61fdd2e6e7a130960f6182',1,'square::size()'],['../classstring.html#aa0b7479ffd251f92f7bc0210b5fcb53b',1,'string::size()']]],
+  ['size',['size',['../classarray.html#a76c6e1607a91a26ffe8399d07fb9f0e3',1,'array::size()'],['../classcube.html#aa974aa9cb8b8dee3d4fb6f043c9b09bf',1,'cube::size()'],['../classmap.html#aaf71b2c9ca0e9d11b6285e74886b3cbb',1,'map::size()'],['../classpointcloud.html#a3bd0235486969383628ccda56dcf8486',1,'pointcloud::size()'],['../classpolygon.html#a511848d9532b5fd440b2b907747603b3',1,'polygon::size()'],['../classsquare.html#a9d392b3b6b61fdd2e6e7a130960f6182',1,'square::size()'],['../classstring.html#aa0b7479ffd251f92f7bc0210b5fcb53b',1,'string::size()']]],
   ['solid',['solid',['../classsolid.html',1,'']]],
   ['sort',['sort',['../classarray.html#a606caf2f233828e7eeff9ec005a4bb93',1,'array']]],
   ['sortasc',['sortAsc',['../classarray.html#ab3d5f0669082be8ad6c9e16221b4a744',1,'array::sortAsc()'],['../classarray.html#a2ba16de756f96132f1a1236c72a21480',1,'array::sortAsc(uint startAt, uint count)']]],
